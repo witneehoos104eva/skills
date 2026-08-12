@@ -1,0 +1,11 @@
+{
+  "skill_name": "deploy-mizai",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Dry-run only: I have a site locally at C:\\Users\\Micha\\Documents\\Ai Projects\\EPR Calculator v4, an existing GitHub repo, and an existing Vercel project called epr-fee-calc. I want epr.mizai.solutions. Do not deploy, create a repo, change DNS, or move a domain. Tell me what you would inspect and the approval you would need before changing anything.",
+      "expected_output": "A concise, read-only preflight that inventories GitHub, Vercel, existing domain ownership, and DNS mode; it must not propose silent creation, deployment, or forced reassignment.",
+      "files": []
+    }
+  ]
+}
